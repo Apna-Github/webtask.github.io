@@ -1,0 +1,90 @@
+body{
+    background: url(../Restorent/restorent/hotel3.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+}
+/*Glass Effect */
+.glass{
+    background: linear-gradient(135deg, rgba(255,255,255,0.2),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+body{
+    display: grid;
+    place-items: center;
+    top: 50%;
+}
+.contain{
+    height: auto;
+    width: 500px;
+    background-color: whitesmoke;
+    border: transparent;
+    place-content: center;
+    position: absolute;
+    padding: 30px;
+    border-radius: 10px;
+}
+.contain h1{
+    color: #ff7200;
+}
+
+.contain input{
+    border-radius: 5px;
+}
+.contain .name{
+    padding: 1vh 6vw;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.contain .username{
+    padding: 1vh 6vw;
+    margin-bottom: 10px;
+}
+.contain .email{
+    padding: 1vh 6vw;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.contain .password{
+    padding: 1vh 6vw;
+    margin-bottom: 10px;
+}
+.contain .confirmpassword{
+    padding: 1vh 4.3vw;
+    margin-bottom: 10px;
+}
+
+.contain .btn{
+   padding: 5px 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: scale 0.2 ease;
+}
+.contain .btn:hover{
+    background-color: antiquewhite;
+}
+.contain .btn:active{
+    scale: 0.95;
+    background: transparent;
+    border: 1px solid #000;
+}
+.contain a{
+    text-decoration: none;
+    color: green;
+}
+
